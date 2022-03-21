@@ -1,0 +1,32 @@
+﻿@using QuizCreation.Entities.DTO.Exam
+@model List<ExamListViewModel> 
+@{
+    ViewData["Title"] = "ListExam";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <table class="table table-sm table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Sınav Id</th>
+                        <th scope="col">Başlık</th>
+                        <th scope="col">Tarih</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var exam in Model)
+                    {
+                        <tr style="cursor:pointer;">
+                            <th>@exam.Id</th>
+                            <td>@exam.Title</td>
+                            <td>@exam.CreateDate.ToShortDateString()</td>
+                            <td>
+                                <a asp-action="DeleteExam" asp-controller="Exam" asp-route-id="@exam.Id" class="btn btn-danger">Sil</a>
+                            </td>
+                            
+                        </tr>
+                    }
+
+                </tbody>
+            </table>

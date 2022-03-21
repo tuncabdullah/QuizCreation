@@ -1,0 +1,12 @@
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\bin\Debug\net6.0\QuizCreation.Entities.deps.json
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\bin\Debug\net6.0\QuizCreation.Entities.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\bin\Debug\net6.0\QuizCreation.Entities.pdb
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.csproj.AssemblyReference.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.AssemblyInfoInputs.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.AssemblyInfo.cs
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\refint\QuizCreation.Entities.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\QuizCreation.Entities.pdb
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Entities\obj\Debug\net6.0\ref\QuizCreation.Entities.dll

@@ -1,0 +1,25 @@
+﻿namespace QuizCreation.Core.Utilities.Results
+{
+    public class SuccessDataResult<T>:DataResult<T>
+    {
+        public SuccessDataResult(T data, string message) : base(data, true, message)
+        {
+
+        }
+
+        public SuccessDataResult(T data) : base(data, true)
+        {
+
+        }
+
+        public SuccessDataResult(string message) : base(default, true, message)
+        {
+
+        }
+
+        public SuccessDataResult(ValueTask<Entities.Concrete.Question> valueTask) : base(default, true)
+        {
+
+        }
+    }
+}

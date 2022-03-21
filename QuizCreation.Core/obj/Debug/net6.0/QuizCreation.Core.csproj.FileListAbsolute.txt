@@ -1,0 +1,17 @@
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Core.deps.json
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Core.runtimeconfig.json
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Core.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Core.pdb
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Entities.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\bin\Debug\net6.0\QuizCreation.Entities.pdb
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.csproj.AssemblyReference.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.AssemblyInfoInputs.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.AssemblyInfo.cs
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.csproj.CopyComplete
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\refint\QuizCreation.Core.dll
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.pdb
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\QuizCreation.Core.genruntimeconfig.cache
+C:\Users\Abdullah TUNÇ\source\KonusarakOgren\QuizCreation\QuizCreation.Core\obj\Debug\net6.0\ref\QuizCreation.Core.dll

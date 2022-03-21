@@ -1,0 +1,93 @@
+﻿@using QuizCreation.Entities.DTO.Exam;
+@model ExamViewModel
+@{
+    var ArticleList = (List<ArticleViewModel>)ViewData["ArticleList"];
+    ViewData["Title"] = "CreateExam";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card card-custom">
+    <div class="card-body">
+        <!--begin::Example-->
+        <div class="example mb-10">
+            <form id="form" class="form" action="@Url.Action("CreateExam","Exam")" method="post">
+
+                <div class="container">
+
+                    <div class="row col-lg-8 mx-auto">
+                        @if (ViewBag.Mesaj!=null)
+                        {
+                            <div class="alert alert-custom alert-success fade show" role="alert">
+                                <div class="alert-icon"><i class="flaticon-warning"></i></div>
+                                <div class="alert-text">@ViewBag.Mesaj</div>
+                            </div>
+                        }
+                         @if (ViewBag.ErorMesage!=null)
+                        {
+                             <div class="alert alert-custom alert-success fade show" role="alert">
+                                <div class="alert-icon"><i class="flaticon-warning"></i></div>
+                                <div class="alert-text">@ViewBag.ErorMesage</div>
+                            </div>
+                        }
+                        <div class="col-lg-12">
+                            <div class="form-group mb-1">
+                                <select class="form-select" id="titleSelected" asp-for="Id" required asp-items="@(new SelectList(ArticleList, "Id", "Title"))">
+                                    <option selected>Sınav Konu Başlığı Seçiniz *</option>
+                                </select>
+                                <input type="hidden" class="form-control" id="title" name="Title" />
+                            </div>
+                        </div>
+                        <div class="col-lg-12 my-3">
+                            <div class="form-group">
+                                <textarea class="form-control" id="description" readonly asp-for="Description" rows="4" required></textarea>
+                            </div>
+                        </div> @for (int i = 0; i < 4; i++)
+                        {
+                            <div class="form-group">
+                                <div class="row form-group my-3">
+                                    <div class="col-md-12">
+                                        <input class="form-control" required asp-for="QuestionList[i].QuestionText" placeholder="Soru @(i+1)">
+
+                                    </div>
+                                </div>
+
+                                <div class="row form-group my-3">
+                                    <div class="col-md-6">
+                                        <input asp-for="QuestionList[i].OptionA" required placeholder="A) " class="form-control">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input asp-for="QuestionList[i].OptionB" required placeholder="B) " class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row  form-group my-3">
+                                    <div class="col-md-6">
+                                        <input asp-for="QuestionList[i].OptionC" required placeholder="C) " class="form-control">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input asp-for="QuestionList[i].OptionD" required placeholder="D) " class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group my-3">
+                                    <div class="col-md-4 mx-auto">
+                                        <select class="form-control" required asp-for="QuestionList[i].TrueOption">
+                                            <option selected>Doğru Cevap Seç</option>
+                                            <option value="A">A</option>
+                                            <option value="B">B</option>
+                                            <option value="C">C</option>
+                                            <option value="D">D</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="d-flex  justify-content-center mt-5 m-auto">
+                        <button type="reset" class="btn btn-secondary  mx-1"><i class="fas fa-eraser"></i>Temizle</button>
+                        <button type="submit" class="btn btn-success  mx-1"><i class="fa fa-globe"></i> Sınav Oluştur</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
